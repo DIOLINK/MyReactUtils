@@ -1,0 +1,19 @@
+{
+  "name": "MyReactUtils",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "react": "^19.2.1"
+  }
+}
